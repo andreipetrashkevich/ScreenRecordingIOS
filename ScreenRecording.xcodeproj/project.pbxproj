@@ -13,6 +13,16 @@
 		EE8C94861DB469620004C0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8C94841DB469620004C0C4 /* Main.storyboard */; };
 		EE8C94881DB469620004C0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8C94871DB469620004C0C4 /* Assets.xcassets */; };
 		EE8C948B1DB469620004C0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8C94891DB469620004C0C4 /* LaunchScreen.storyboard */; };
+		EE8C94AA1DB47FD00004C0C4 /* libairplaysdk-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94A81DB47FD00004C0C4 /* libairplaysdk-1.a */; };
+		EE8C94AB1DB47FD00004C0C4 /* libairplaysdk-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94A91DB47FD00004C0C4 /* libairplaysdk-2.a */; };
+		EE8C94AE1DB47FEB0004C0C4 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94AC1DB47FEB0004C0C4 /* libstdc++.6.0.9.tbd */; };
+		EE8C94AF1DB47FEB0004C0C4 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94AD1DB47FEB0004C0C4 /* libstdc++.6.tbd */; };
+		EE8C94B81DB4AF110004C0C4 /* CSScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C94B71DB4AF110004C0C4 /* CSScreenRecorder.m */; };
+		EE8C94BB1DB4B1F80004C0C4 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C94BA1DB4B1F80004C0C4 /* Utilities.m */; };
+		EE8C94BD1DB4B8760004C0C4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94BC1DB4B8760004C0C4 /* libiconv.tbd */; };
+		EE8C94BF1DB4B8C70004C0C4 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94BE1DB4B8C70004C0C4 /* libintl.a */; };
+		EE8C94C11DB4BD160004C0C4 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94C01DB4BD160004C0C4 /* libmp4v2.a */; };
+		EE8C94C31DB4BE120004C0C4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C94C21DB4BE120004C0C4 /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,20 @@
 		EE8C94871DB469620004C0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8C948A1DB469620004C0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8C948C1DB469620004C0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8C94951DB475300004C0C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE8C94A71DB47F920004C0C4 /* mediaserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mediaserver.h; path = include/mediaserver.h; sourceTree = "<group>"; };
+		EE8C94A81DB47FD00004C0C4 /* libairplaysdk-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-1.a"; path = "lib/libairplaysdk-1.a"; sourceTree = "<group>"; };
+		EE8C94A91DB47FD00004C0C4 /* libairplaysdk-2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-2.a"; path = "lib/libairplaysdk-2.a"; sourceTree = "<group>"; };
+		EE8C94AC1DB47FEB0004C0C4 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EE8C94AD1DB47FEB0004C0C4 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		EE8C94B61DB4AF110004C0C4 /* CSScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSScreenRecorder.h; sourceTree = "<group>"; };
+		EE8C94B71DB4AF110004C0C4 /* CSScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSScreenRecorder.m; sourceTree = "<group>"; };
+		EE8C94B91DB4B1F80004C0C4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		EE8C94BA1DB4B1F80004C0C4 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		EE8C94BC1DB4B8760004C0C4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		EE8C94BE1DB4B8C70004C0C4 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = lib/libintl.a; sourceTree = "<group>"; };
+		EE8C94C01DB4BD160004C0C4 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4v2.a; path = lib/libmp4v2.a; sourceTree = "<group>"; };
+		EE8C94C21DB4BE120004C0C4 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8C94C31DB4BE120004C0C4 /* libstdc++.tbd in Frameworks */,
+				EE8C94C11DB4BD160004C0C4 /* libmp4v2.a in Frameworks */,
+				EE8C94BF1DB4B8C70004C0C4 /* libintl.a in Frameworks */,
+				EE8C94BD1DB4B8760004C0C4 /* libiconv.tbd in Frameworks */,
+				EE8C94AE1DB47FEB0004C0C4 /* libstdc++.6.0.9.tbd in Frameworks */,
+				EE8C94AF1DB47FEB0004C0C4 /* libstdc++.6.tbd in Frameworks */,
+				EE8C94AA1DB47FD00004C0C4 /* libairplaysdk-1.a in Frameworks */,
+				EE8C94AB1DB47FD00004C0C4 /* libairplaysdk-2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +74,9 @@
 		EE8C946F1DB469620004C0C4 = {
 			isa = PBXGroup;
 			children = (
-				EE8C947A1DB469620004C0C4 /* ScreenRecording */,
+				EE8C94951DB475300004C0C4 /* AVFoundation.framework */,
 				EE8C94791DB469620004C0C4 /* Products */,
+				EE8C947A1DB469620004C0C4 /* ScreenRecording */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +91,14 @@
 		EE8C947A1DB469620004C0C4 /* ScreenRecording */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C94A61DB47F830004C0C4 /* include */,
+				EE8C94A01DB47F4B0004C0C4 /* lib */,
 				EE8C947E1DB469620004C0C4 /* AppDelegate.h */,
 				EE8C947F1DB469620004C0C4 /* AppDelegate.m */,
+				EE8C94B91DB4B1F80004C0C4 /* Utilities.h */,
+				EE8C94BA1DB4B1F80004C0C4 /* Utilities.m */,
+				EE8C94B61DB4AF110004C0C4 /* CSScreenRecorder.h */,
+				EE8C94B71DB4AF110004C0C4 /* CSScreenRecorder.m */,
 				EE8C94811DB469620004C0C4 /* ViewController.h */,
 				EE8C94821DB469620004C0C4 /* ViewController.m */,
 				EE8C94841DB469620004C0C4 /* Main.storyboard */,
@@ -77,6 +116,29 @@
 				EE8C947C1DB469620004C0C4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8C94A01DB47F4B0004C0C4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C94C21DB4BE120004C0C4 /* libstdc++.tbd */,
+				EE8C94AC1DB47FEB0004C0C4 /* libstdc++.6.0.9.tbd */,
+				EE8C94AD1DB47FEB0004C0C4 /* libstdc++.6.tbd */,
+				EE8C94BC1DB4B8760004C0C4 /* libiconv.tbd */,
+				EE8C94C01DB4BD160004C0C4 /* libmp4v2.a */,
+				EE8C94BE1DB4B8C70004C0C4 /* libintl.a */,
+				EE8C94A81DB47FD00004C0C4 /* libairplaysdk-1.a */,
+				EE8C94A91DB47FD00004C0C4 /* libairplaysdk-2.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		EE8C94A61DB47F830004C0C4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C94A71DB47F920004C0C4 /* mediaserver.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +172,11 @@
 				TargetAttributes = {
 					EE8C94771DB469620004C0C4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -150,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8C94831DB469620004C0C4 /* ViewController.m in Sources */,
+				EE8C94B81DB4AF110004C0C4 /* CSScreenRecorder.m in Sources */,
 				EE8C94801DB469620004C0C4 /* AppDelegate.m in Sources */,
 				EE8C947D1DB469620004C0C4 /* main.m in Sources */,
+				EE8C94BB1DB4B1F80004C0C4 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +283,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -253,7 +323,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,22 +335,54 @@
 		EE8C94901DB469620004C0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/ScreenRecording/include",
+					"${PROJECT_DIR}/ScreenRecording",
+				);
 				INFOPLIST_FILE = ScreenRecording/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScreenRecording/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = kobitondev.ScreenRecording;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
 		EE8C94911DB469620004C0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/ScreenRecording/include",
+					"${PROJECT_DIR}/ScreenRecording",
+				);
 				INFOPLIST_FILE = ScreenRecording/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScreenRecording/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = kobitondev.ScreenRecording;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -302,6 +405,7 @@
 				EE8C94911DB469620004C0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
